@@ -10,7 +10,7 @@ module.exports = "body{font-family:'Open Sans',serif;padding-top:54px;color:#868
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n\nul.about {\n    list-style: none;\n    padding: 0;\n    margin-left: 0px;\n  }\n\nul.about li:before {\n    content: \"\\f152\";\n    font-family: FontAwesome;\n    display: inline-block;\n    /* margin-left: -1.3em; */\n    width: 1.1em;\n    color: #bd5d38;\n    font-size: 20px;\n    margin-top: 0px;\n  }\n\nspan.highlighted{\n    color: #bd5d38;\n    font-size: 20px;\n  }\n"
 
 /***/ }),
 
