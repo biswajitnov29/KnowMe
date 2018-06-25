@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+ul.about {
+    list-style: none;
+    padding: 0;
+    margin-left: 0px;
+  }
+  
+  ul.about li:before {
+    content: "\f152";
+    font-family: FontAwesome;
+    display: inline-block;
+    /* margin-left: -1.3em; */
+    width: 1.1em;
+    color: #bd5d38;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  span.highlighted{
+    color: #bd5d38;
+    font-size: 20px;
+  }

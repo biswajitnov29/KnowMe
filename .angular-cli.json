@@ -27,10 +27,7 @@
         "styles.css"
       ],
       "scripts": [
-        "vendor/jquery/jquery.min.js",
-        "vendor/bootstrap/js/bootstrap.bundle.min.js",
-        "vendor/jquery-easing/jquery.easing.min.js",
-        "js/resume.min.js"
+        "vendor/bootstrap/js/bootstrap.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

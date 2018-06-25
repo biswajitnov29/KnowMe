@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component,ElementRef } from '@angular/core';
+
+import { Section } from './section.enum'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(public el: ElementRef){
+  }
+  
 }
